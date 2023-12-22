@@ -1,7 +1,7 @@
 {
   "name": "enigma",
   "version": "1.0.0",
-  "description": "",
+  "description": "🔐 A basic simulation of the Enigma machine",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
