@@ -1,0 +1,35 @@
+{
+  "name": "enigma",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "simulate": "ts-node --pretty --esm --files demo/simulate.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henryhale/enigma.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Henry Hale",
+    "url": "https://github.com/henryhale"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/henryhale/enigma/issues"
+  },
+  "homepage": "https://github.com/henryhale/enigma#readme",
+  "type": "module",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8"
+  },
+  "dependencies": {
+    "alpinejs": "^3.13.3"
+  }
+}
