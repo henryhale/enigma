@@ -18,6 +18,12 @@ Now the first step is done 🎉
 
 The rest of this document tells what I found out and provides a guide to run the simulation on your computer.
 
+## Live Demo
+
+To try the live demo, first check out how to use it [here](#guide).
+
+Check out the simulation in action: [Try it Yourself](https://henryhale.github.io/enigma/)
+
 ## How it Works
 
 The Enigma machine consisted of rotors, reflector, plugboard and a keyboard.
@@ -114,6 +120,24 @@ npm run build
 - [demo/simulate.ts](./demo/simulate.ts): Example script for Node.js.
 - [demo/browser.ts](./demo/browser.ts): Example script for the browser (with [index.html](./index.html))
 
+## Guide
+This section focuses on the browser demo taking you through how to encrypt and decrypt messages
+
+- Open the demo [locally](#usage) in your browser or check out the [live demo](https://henryhale.github.io/enigma/).
+- `Mode`: Encryption - select the `encrypt` radio button.
+- `Rotors`:  For simplicity, leave each rotor position at `0 - A`. 
+   Otherwise set the rotors to the desired positions say `0 - A`, `1 - B`, `2 - C`.
+   Be sure to note the order as it will be used to decrypt the messages.
+- `Lampboard`: Everytime you input a key, the output (ciphered) key will light up.
+- `Input`: Type the plain text message here.
+- `Output`: The output is represented the ciphered text from the input message.
+- `Mode`: Decryption - to decrypt the message, open the demo in another tab and select `decrypt` under the `Mode` section.
+- `Rotors`: Set the rotor positions to the values they were at during encryption.
+- `Input`: Enter the ciphered text into the input textarea.
+- `Output`: The corresponding result is the plaintext you entered during the encryption.
+  
+If you have reached this point, you have got it 🎉
+ 
 ## Contributing
 
 Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or create a pull request.
