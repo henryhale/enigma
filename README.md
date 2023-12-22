@@ -12,7 +12,7 @@ _The World War II's cryptic game-changer, a mechanical marvel of secrecy and enc
 
 This repository features a TypeScript simulation of the iconic Enigma machine — _an encryption device used by the German military during World War II._
 
-Having watched The Imitation Game - movie with prior understanding of cryptography, I decided to challenge myself into creating a simulation of the basic functionality of the original Enigma machines. Then later try to break it just like Alan Turing and his collegues did.
+Having watched [The Imitation Game](http://theimitationgamemovie.com/) movie with prior understanding of cryptography, I decided to challenge myself into creating a simulation of the basic functionality of the original Enigma machines. Then later try to break it just like Alan Turing and his collegues did.
 
 Now the first step is done 🎉
 
@@ -121,7 +121,7 @@ Contributions are welcome! If you have suggestions or improvements, feel free to
 ## References
 
 - How did the Enigma work? [Youtube Video](https://youtu.be/ybkkiGtJmkM)
-- The Imitation Game (2014) - Film
+- The Imitation Game (2014) - [Film](http://theimitationgamemovie.com/)
 - Enigma Machine - [Wikipedia article](https://en.wikipedia.org/wiki/Enigma_machine)
 - The Enigma Machine - [Crypto Museum](https://www.cryptomuseum.com/crypto/enigma/)
 - _Enigma: The Battle for the Code_ by Hugh Sebag-Montefiore
